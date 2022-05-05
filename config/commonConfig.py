@@ -1,0 +1,9 @@
+contract_code_type_SwapLinear='contract_code';contract_code_type_Contract='symbol'
+swap_flag='s';linear_flag='l';contract_flag='c';
+defaultUser_id={
+    '20':11433583
+}
+crossName='<全仓>';isolateName='<逐仓>'
+futureType={
+    'CW':'this_week','NW':'next_week','CQ':'quarter','NQ':'next_quarter'
+}
