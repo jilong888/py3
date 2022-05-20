@@ -53,3 +53,5 @@ if api_flag:
     r = api('20l').send_order('btc-usdt-cw', 44511.1, log_level=3, mode_type=1)
     # r=api('20l').contract_info('btc-usdt-cw',log_level=3)
     print(r)
+
+print('hello,world')
