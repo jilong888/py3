@@ -54,4 +54,4 @@ if api_flag:
     # r=api('20l').contract_info('btc-usdt-cw',log_level=3)
     print(r)
 
-print('hello,world')
+print('hello,world,I\'m windows')
