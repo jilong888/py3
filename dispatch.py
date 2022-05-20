@@ -7,7 +7,7 @@ from business.order.order import order
 from business.api.api import api
 import business.futures.basic as basic
 
-restful_flag=0;ws_flag=0;excel_flag=0;redis_flag=1;mysql_flag=0;mq_flag=0;order_flag=1;api_flag=1;
+restful_flag=0;ws_flag=0;excel_flag=0;redis_flag=0;mysql_flag=0;mq_flag=0;order_flag=1;api_flag=1;
 if restful_flag:
     for period in all_period:
         t=noti.restful('20l').kline('btc-usdt-CW',period,3,log_level=0,flag='<Kline restful 传size> [basic check] ')
